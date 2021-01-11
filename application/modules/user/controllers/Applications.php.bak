@@ -1,0 +1,215 @@
+<?php defined('BASEPATH') or exit('No direct script access allowed');
+
+/**
+ * CodeIgniter-HMVC-AdminLTE
+ *
+ * @package    CodeIgniter-HMVC-AdminLTE
+ * @author     N3Cr0N (N3Cr0N@list.ru)
+ * @copyright  2019 N3Cr0N
+ * @license    https://opensource.org/licenses/MIT  MIT License
+ * @link       <URI> (description)
+ * @version    GIT: $Id$
+ * @since      Version 0.0.1
+ * @todo       (description)
+ *
+ */
+
+class Applications extends FrontendController
+{
+	//
+    public $CI;
+
+    /**
+     * An array of variables to be passed through to the
+     * view, layouts, ....
+     */
+    protected $data = array();
+
+    /**
+     * [__construct description]
+     *
+     * @method __construct
+     */
+    public function __construct()
+    {
+        //
+        parent::__construct();
+        // This function returns the main CodeIgniter object.
+        // Normally, to call any of the available CodeIgniter object or pre defined library classes then you need to declare.
+        $CI =& get_instance();
+        $this->load->helper('cookie');
+		$this->application_year = date("Y");
+		$this->user_details_data = $this->session->userdata('user_details_data');
+    }
+
+    /**
+     * [index description]
+     *
+     * @method index
+     *
+     * @return [type] [description]
+     */
+    public function index($stream = false)
+    {
+        $this->is_exists_user_logged();
+        $this->data['stream'] = $stream;
+        $this->data['site_title'] = $this->data['page_title'] = '';
+        // Display page with the template function from REST_Controller
+        $this->template('applications/index', $this->data, true);
+    }
+
+    /**
+     * [all description]
+     *
+     * @method index
+     *
+     * @return [type] [description]
+     */
+    public function all()
+    {
+        $this->is_exists_user_logged();
+        $this->data['site_title'] = $this->data['page_title'] = 'All Applications';
+        // Display page with the template function from REST_Controller
+        $this->template('applications/all', $this->data, true);
+    }
+
+    public function form() {
+        $this->is_exists_user_logged();
+        $this->data['stream'] = $stream;		
+        $this->data['site_title'] = $this->data['page_title'] = 'B.Tech Application Form '.$this->application_year;
+        $this->template('applications/form', $this->data, true);
+    }
+	
+    public function bba_form() {
+        $this->is_exists_user_logged();
+        $this->data['stream'] = $stream;
+        $this->data['site_title'] = $this->data['page_title'] = 'BBA Application Form '.$this->application_year;
+        $this->template('applications/form_bba', $this->data, true);
+    }	
+	
+    public function phd_form() {
+        $this->is_exists_user_logged();
+        $this->data['stream'] = $stream;
+		$this->data['user_data'] = $this->user_details_data['user_details']['data'][0];
+        $this->data['site_title'] = $this->data['page_title'] = 'PhD Application Form '.$this->application_year;
+        $this->template('applications/form_phd', $this->data, true);
+    }		
+
+    /**
+     * get active nationality list by API call
+     *
+     * @return show API json response
+     * @author
+     */
+    public function get_nationalities() {
+        parent::_get_nationalities(false, $this->is_admin);
+    }
+
+    /**
+     * get active course list by API call
+     *
+     * @return show API json response
+     * @author
+     */
+    public function get_courses() {
+        parent::_get_courses(false, $this->is_admin);
+    }
+
+    /**
+     * get active specialization list by API call
+     *
+     * @return show API json response
+     * @author
+     */
+    public function get_specializations() {
+        parent::_get_specializations(false, $this->is_admin);
+    }
+
+    /**
+     * get active campus list by API call
+     *
+     * @return show API json response
+     * @author
+     */
+    public function get_campuses() {
+        parent::_get_campuses(false, $this->is_admin);
+    }
+	
+    /**
+     * get active blood groups list by API call
+     *
+     * @return show API json response
+     * @author
+     */
+    public function get_bloodgroups() {
+        parent::_get_bloodgroups(false, $this->is_admin);
+    }
+
+    public function form_hs_ug_srmjeeh() {
+        $this->is_exists_user_logged();
+        $this->data['stream'] = $stream;
+        $this->data['site_title'] = $this->data['page_title'] = 'Health Sciences Undergraduate Application Form (SRMJEEH) '.$this->application_year;
+        
+        $this->template('applications/hs_ug_srmjeeh_form', $this->data, true);
+    }
+
+    public function get_appcourses()
+    {
+        parent::_get_appcourses(false, $this->is_admin);
+    }
+
+    /*Btech Application Form*/
+    public function form_btech() {
+        $this->is_exists_user_logged();
+        $this->data['stream'] = $stream;
+        $this->data['site_title'] = $this->data['page_title'] = 'B.Tech Application Form 2020';
+        $this->template('applications/btech_form', $this->data, true);
+    }
+
+
+    /*Mtech Research Application Form*/
+    public function form_mtechresearch() {
+        $this->is_exists_user_logged();
+        $this->data['site_title'] = $this->data['page_title'] = 'M.Tech (Research)';
+        $this->template('applications/mtechresearch_form', $this->data, true);
+    }
+    
+    // Distance Education Application Form
+    public function form_dis_edu() {
+        // $this->is_exists_user_logged();
+        $this->data['stream'] = $stream;
+        $this->data['site_title'] = $this->data['page_title'] = 'Distance Education Application Form '.$this->application_year;
+        $this->template('applications/dis_edu_form', $this->data, true);
+    }
+
+    public function get_graduations()
+    {
+        parent::_get_graduations(false, $this->is_admin);
+    }
+
+    public function get_gender_title()
+    {
+        parent::_get_gender_title(false, $this->is_admin);
+    }
+
+    public function get_gender()
+    {
+        parent::_get_gender(false, $this->is_admin);
+    }
+
+    public function get_social_status()
+    {
+        parent::_get_social_status(false, $this->is_admin);
+    }
+
+    public function get_nature_of_deformity()
+    {
+        parent::_get_nature_of_deformity(false, $this->is_admin);
+    }
+
+    public function get_percentage_of_deformity()
+    {
+        parent::_get_percentage_of_deformity(false, $this->is_admin);
+    }
+
+}

@@ -1,0 +1,413 @@
+/*
+SRM ADMISSION: Custom Common CSS
+Author: PHP Team
+File: Custom Form CSS File
+*/
+
+/**** A2557 CSS Start ***/
+span.select2.select2-container.select2-container--bootstrap {
+	width: 100% !important;
+}
+
+span.select2-selection.select2-selection--single[aria-labelledby="select2-phone_no_code-container"],span.select2-selection.select2-selection--single[aria-labelledby="select2-pd_father_phone_no_code-container"],span.select2-selection.select2-selection--single[aria-labelledby="select2-pd_mother_phone_no_code-container"],span.select2-selection.select2-selection--single[aria-labelledby="select2-pd_guardian_phone_no_code-container"],span.select2-selection.select2-selection--single[aria-labelledby="select2-pd_father_alt_phone_no_code-container"],span.select2-selection.select2-selection--single[aria-labelledby="select2-pd_mother_alt_phone_no_code-container"] {
+    width: 74px!important;
+	height: 35px!important;
+	border-top-right-radius: unset !important;
+	border-bottom-right-radius: unset !important;
+}
+
+span#select2-academic_board-container,span#select2-academic_twelfth_board-container,span#select2-academic_marking_scheme-container,span#select2-academic_marking_scheme_twelfth-container,#academc_common th,input#academic_yr_passing,input#academic_yr_passing_twelfth,input#academic_yr_passing_graduation,input#academic_yr_passing_pg_graduation{
+	text-align:center;
+}
+
+#academc_common thead tr th
+{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.required_asterisk {
+    position: relative;
+    color: #f00;
+    margin-right: 10px;
+    float: right;
+    margin-top: -42px;
+}
+
+#parsley-id-multiple-current_education_qual_status li{
+	margin-left: 10px;
+}
+
+ul#parsley-id-multiple-rdio {
+    width: max-content!important;
+}
+
+.table-bordered{
+	border:unset!important;
+}
+
+#academc_common .select2-selection.select2-selection--single[aria-labelledby="select2-academic_board-container"],.select2-selection.select2-selection--single[aria-labelledby="select2-academic_twelfth_board-container"], .select2-selection.select2-selection--single[aria-labelledby="select2-academic_graduation_board-container"],.select2-selection.select2-selection--single[aria-labelledby="select2-academic_pg_graduation_board-container"] {
+  width: 130px!important;
+}
+
+.qa_status{
+    max-width: 50%!important;	
+}
+
+.tenth_dis thead tr th
+{
+    font-weight: 500;
+}
+
+a[data-target="#contentDeletePop"]{
+	color:#000;
+}
+
+#table4.select2-selection.select2-selection--single[aria-labelledby="select2-institute_university_1-container"], #table4.select2-selection.select2-selection--single[aria-labelledby="select2-institute_university_2-container"], #table4.select2-selection.select2-selection--single[aria-labelledby="select2-institute_university_3-container"] {
+  width: 230px!important;
+}
+
+.file_name a{
+	color:#000!important;
+}
+
+/*** BSC Wizard CSS ***/
+#bsc_hons_am_form>.steps>ul>li {
+    width: 198px;
+    white-space: nowrap;
+}
+
+/*** DDE Wizard CSS ***/
+#dist_edu_form>.steps>ul>li {
+    width: 170px;
+    white-space: nowrap;
+}
+
+.disable-div { /* Dont remove */
+	pointer-events: none;
+}
+
+.disable-div .select2-selection__clear{
+	display:none;
+}
+
+/**** A2557 CSS End ***/
+
+/**** A2304 CSS Start ***/
+.disable_div_preview { /* Dont remove */
+	pointer-events: none;
+}
+.disable_div_preview .select2-selection__clear{
+		display:none;
+}
+/* HCMA FORM CSS */
+span.select2.select2-container.select2-container--bootstrap {
+width: 100% !important;
+}
+/*
+Temporary Comment .select2-selection.select2-selection--single[aria-labelledby="select2-academic_board-container"],.select2-selection.select2-selection--single[aria-labelledby="select2-academic_twelfth_board-container"],.select2-selection.select2-selection--single[aria-labelledby="select2-academic_stream-container"]{
+  width: 140px!important
+} */
+#hcma_form span.select2-selection.select2-selection--single[aria-labelledby="select2-phone_no_code-container"],span.select2-selection.select2-selection--single[aria-labelledby="select2-pd_father_phone_no_code-container"],span.select2-selection.select2-selection--single[aria-labelledby="select2-pd_mother_phone_no_code-container"],span.select2-selection.select2-selection--single[aria-labelledby="select2-pd_guardian_phone_no_code-container"],span.select2-selection.select2-selection--single[aria-labelledby="select2-pd_father_alt_phone_no_code-container"],span.select2-selection.select2-selection--single[aria-labelledby="select2-pd_mother_alt_phone_no_code-container"] {
+    width: 74px!important;
+	height: 35px!important;
+	border-top-right-radius: unset !important;
+	border-bottom-right-radius: unset !important;
+}
+/*HCMA FORM CSS END*/
+/* B.Ed m.Ed Css start*/
+
+#bm_ed_mphil_form  > .steps > ul > li {
+    width: 148px;
+}
+
+#bm_ed_mphil_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_board-container"],
+#bm_ed_mphil_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_twelfth_board-container"],
+#bm_ed_mphil_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_stream-container"],
+#bm_ed_mphil_form .select2-selection.select2-selection--single[aria-labelledby="select2-university_ug-container"],
+#bm_ed_mphil_form .select2-selection.select2-selection--single[aria-labelledby="select2-university_pg-container"]
+{
+  width: 140px!important
+}
+/* B.Ed m.Ed Css End */
+
+/* SHUG Css start */
+#shug_form > .steps > ul > li {
+    width: 170px;
+}
+/*
+table td div span.select2.select2-container.select2-container--bootstrap{
+	width:130px!important;
+}*/
+
+.select2-selection.select2-selection--single[aria-labelledby="select2-board-container"] {
+  width: 230px!important;
+}
+.select2-container .select2-selection--single {
+    height: 35px;
+}
+#shug_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_board-container"],
+#shug_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_twelfth_board-container"],
+#shug_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_stream-container"],
+#shug_form .select2-selection.select2-selection--single[aria-labelledby="select2-university_ug-container"],
+#shug_form .select2-selection.select2-selection--single[aria-labelledby="select2-university_pg-container"]
+{
+  width: 140px!important
+}
+
+/* SHUG Css End */
+
+/** BBA CSS Start**/
+#bba_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_board-container"],
+#bba_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_twelfth_board-container"],
+#bba_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_stream-container"]
+{
+  width: 140px!important
+}
+#bba_form >.steps >ul >li {
+    width: 168px;
+}
+/** BBA CSS End **/
+
+/** MBA CSS Start**/
+#mba_form >.steps >ul >li {
+    width: 148px;
+}
+#mba_form .select2-selection.select2-selection--single[aria-labelledby="select2-institute_university-container"],
+#mba_form .select2-selection.select2-selection--single[aria-labelledby="select2-sector_0-container"],
+#mba_form .select2-selection.select2-selection--single[aria-labelledby="select2-sector_1-container"],
+#mba_form .select2-selection.select2-selection--single[aria-labelledby="select2-sector_2-container"]
+{
+  width: 140px!important
+}
+/** MBA CSS End **/
+/** UG PG Part time course css**/
+#mba_parttime_form .select2-selection.select2-selection--single[aria-labelledby="select2-institute_university-container"],
+#mba_parttime_form .select2-selection.select2-selection--single[aria-labelledby="select2-sector_0-container"],
+#mba_parttime_form .select2-selection.select2-selection--single[aria-labelledby="select2-sector_1-container"],
+#mba_parttime_form .select2-selection.select2-selection--single[aria-labelledby="select2-sector_2-container"],
+#mba_parttime_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_board-container"],
+#mba_parttime_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_twelfth_board-container"]
+{
+  width: 140px!important
+}
+/** UG PG Part time course css end**/
+
+/** HSPG diploma non entrance start**/
+
+#hspg_diploma_form > .steps > ul > li {
+    width: 148px;
+}
+.required_asterisk {
+    position: relative;
+    color: #f00;
+    margin-right: 0px;
+    float: right;
+    margin-top: -48px;
+}
+#hspg_diploma_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_board-container"],
+#hspg_diploma_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_twelfth_board-container"],
+#hspg_diploma_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_stream-container"],
+#hspg_diploma_form .select2-selection.select2-selection--single[aria-labelledby="select2-university_ug-container"],
+#hspg_diploma_form .select2-selection.select2-selection--single[aria-labelledby="select2-university_pg-container"]
+{
+  width: 140px!important
+}
+/** HSPG diploma non entrance end**/
+
+/** HSPG EE start**/
+
+#hspg_ee_form > .steps > ul > li {
+    width: 148px;
+}
+.required_asterisk {
+    position: relative;
+    color: #f00;
+    margin-right: 0px;
+    float: right;
+    margin-top: -48px;
+}
+#hspg_ee_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_board-container"],
+#hspg_ee_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_twelfth_board-container"],
+#hspg_ee_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_stream-container"],
+#hspg_ee_form .select2-selection.select2-selection--single[aria-labelledby="select2-university_ug-container"],
+#hspg_ee_form .select2-selection.select2-selection--single[aria-labelledby="select2-university_pg-container"]
+{
+  width: 140px!important
+}
+/** HSPG  entrance exam end**/
+/** AFIH**/
+#afih_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_board-container"],
+#afih_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_twelfth_board-container"],
+#afih_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_stream-container"],
+#afih_form .select2-selection.select2-selection--single[aria-labelledby="select2-university_ug-container"],
+#afih_form .select2-selection.select2-selection--single[aria-labelledby="select2-university_pg-container"]
+{
+  width: 140px!important
+}
+/** End AFIH **/
+/**** A2304 css end ****/
+
+
+/*** A2556 css start*/
+/** M.Arch form css start**/
+#marchdesign_form > .steps>ul>li {
+    width: 142px;
+    white-space: nowrap;
+}
+/* temporary comment*/
+/*.select2-selection.select2-selection--single[aria-labelledby="select2-board_0-container"],.select2-selection.select2-selection--single[aria-labelledby="select2-board_1-container"]{
+  width: 170px!important;
+}*/
+
+#marchdesign_form span.select2-selection.select2-selection--single[aria-labelledby="select2-phone_no_code-container"] {
+    width: 74px!important;
+  height: 35px!important;
+  border-top-right-radius: unset !important;
+  border-bottom-right-radius: unset !important;
+}
+
+/*** B.Arch start **/
+
+#barchdesign_form span.select2-selection.select2-selection--single[aria-labelledby="select2-phone_no_code-container"],
+#barchdesign_form span.select2-selection.select2-selection--single[aria-labelledby="select2-pd_father_phone_no_code-container"],
+#barchdesign_form span.select2-selection.select2-selection--single[aria-labelledby="select2-pd_mother_phone_no_code-container"],
+#barchdesign_form span.select2-selection.select2-selection--single[aria-labelledby="select2-pd_guardian_phone_no_code-container"] {
+width: 74px!important;
+height: 35px!important;
+border-top-right-radius: unset !important;
+border-bottom-right-radius: unset !important;
+}
+
+#barchdesign_form >.steps>ul>li {
+    width: 170px;
+    white-space: nowrap;
+}
+#barchdesign_form .select2-selection.select2-selection--single[aria-labelledby="select2-board_0-container"],.select2-selection.select2-selection--single[aria-labelledby="select2-board_1-container"]{
+  /*width: 170px!important;*/
+}
+
+/*** B.Arch End **/
+
+/*** B.tech Start **/
+#btech_form >.steps>ul>li {
+    width: 192px;
+    white-space: nowrap;
+}
+
+#btech_form .select2-selection.select2-selection--single[aria-labelledby="select2-mode_of_study-container"], 
+#btech_form .select2-selection.select2-selection--single[aria-labelledby="select2-marking_scheme-container"],
+#btech_form .select2-selection.select2-selection--single[aria-labelledby="select2-board-container"]
+ {
+  width: 125px!important;
+}
+
+
+#btech_form span#custom-current_education_qual_status-parsley-error {
+    margin-left: 15px;
+}
+
+#btech_form input#year_of_passing {
+    width: 70px;
+}
+
+#btech_form span.select2.select2-container.select2-container--bootstrap {
+    font-size: 14px;
+}
+
+#btech_form h5.text-primary {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+#btech_form label.ckbox.add_guardian_checkbox {
+    margin-left: 15px;
+}
+
+/*** B.tech End **/
+
+/*** M.tech Start **/
+
+#mtech_form >.steps>ul>li {
+    width: 170px;
+    white-space: nowrap;
+}
+
+
+#mtech_form .select2-selection.select2-selection--single[aria-labelledby="select2-institute_university-container"]
+{
+  width: 120px;
+}
+
+#phd_jan_form .select2-selection.select2-selection--single[aria-labelledby="select2-institute_university_1-container"],.select2-selection.select2-selection--single[aria-labelledby="select2-institute_university_2-container"],.select2-selection.select2-selection--single[aria-labelledby="select2-institute_university_3-container"]
+{
+  width: 220px;
+}
+
+#phd_form .select2-selection.select2-selection--single[aria-labelledby="select2-institute_university_1-container"],.select2-selection.select2-selection--single[aria-labelledby="select2-institute_university_2-container"],.select2-selection.select2-selection--single[aria-labelledby="select2-institute_university_3-container"]
+{
+  width: 220px;
+}
+
+#mtech_form .select2-selection.select2-selection--single[aria-labelledby="select2-mode_of_study-container"],
+#mtech_form .select2-selection.select2-selection--single[aria-labelledby="select2-marking_scheme-container"]
+{
+  width: 100px;
+}
+
+#mtech_form #emp_exp span.tx-danger.required_asterisk
+{
+  margin-top: -40px;
+}
+
+#mtech_form span#custom-current_education_qual_status-parsley-error{
+  margin-left: 15px;
+}
+
+#mtech_form span.select2.select2-container.select2-container--bootstrap {
+    font-size: 14px;
+}
+
+
+/*** M.tech End **/
+
+/*** Law start **/
+
+#law_form >.steps>ul>li {
+    width: 159px;
+    white-space: nowrap;
+}
+
+#law_form .select2-selection.select2-selection--single[aria-labelledby="select2-board_0-container"],
+#law_form .select2-selection.select2-selection--single[aria-labelledby="select2-board_1-container"]{
+  width: 130px!important;
+}
+
+/*** Law End **/
+
+
+/*** A2556 css end*/
+#dist_edu_jan_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_board-container"],
+#dist_edu_jan_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_twelfth_board-container"],
+#dist_edu_jan_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_stream-container"],
+#dist_edu_jan_form .select2-selection.select2-selection--single[aria-labelledby="select2-university_ug-container"],
+#dist_edu_jan_form .select2-selection.select2-selection--single[aria-labelledby="select2-university_pg-container"]
+{
+  width: 140px!important
+}
+
+#mtechresearch_jan_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_board-container"],
+#mtechresearch_jan_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_twelfth_board-container"],
+#mtechresearch_jan_form .select2-selection.select2-selection--single[aria-labelledby="select2-academic_stream-container"],
+#mtechresearch_jan_form .select2-selection.select2-selection--single[aria-labelledby="select2-university_ug-container"],
+#mtechresearch_jan_form .select2-selection.select2-selection--single[aria-labelledby="select2-university_pg-container"]
+{
+  width: 140px!important
+}
+
+div#save_exit {
+	padding-top:7px;
+    float: left;
+    background: unset;
+    margin-left: 20px;
+}

@@ -1,0 +1,140 @@
+#preview_payment{
+	display:none
+}
+@media print{
+   
+    #page-topbar,.vertical-menu{
+        display: none;
+    }
+	.accthree-print{
+			margin-bottom:10% !important; 
+	}
+	.print_margin {
+		margin-bottom: 3%;
+	}
+	.print_margin_4 {
+		margin-bottom: 4%;
+	}
+	.print_margin_5 {
+		margin-bottom: 5%;
+	}
+	.print_margin_6 {
+		margin-bottom: 6%;
+	}
+	.print_margin_12 {
+		margin-top: 18% !important;
+	}	
+	.print_margin_top_3{
+		margin-top:3%;
+	}
+   .card_print {
+        margin-bottom: 25px !important;
+    }
+    .card_print > .collapse > .card-body {
+        padding: 25px !important;
+    }
+    .card_print > .collapse > .card-body > section > .w-100 {
+        display: block !important;
+    }
+	.card_print > .collapse > .card-body > section > .w-100 > .col-lg-3,
+	.card_print > .collapse > .card-body > section > .w-100 > .col-md-3{
+		display: inline-block !important;
+		padding: 10px;
+		width: 23%;
+	}
+    .card_print > .collapse > .card-body > section > .w-100 > .col-md-4,
+	.card_print > .collapse > .card-body > section > .w-100 > .col-lg-4
+	{
+        display: inline-block !important;
+       padding: 10px;
+       width: 30%;
+      
+    }
+	.mphil_print > .collapse > .card-body >  .w-100 > .col-lg-4{
+	display: inline-block !important;
+       padding: 10px;
+       width: 30%;
+	}
+	.mba_print > .collapse > .card-body > section > .w-100 > .form-layout> .row > .col-lg-6{
+		 display: inline-block !important;
+       padding: 10px;
+       width: 40%;
+	}
+	.shug_print > .collapse > .card-body > section > .w-100 > .form-layout> .row > .col-lg-6{
+		 display: inline-block !important;
+       padding: 10px;
+       width: 40% !important;
+	}
+	.shug_print_campus > .row >.col-lg-4{
+       width: 30% !important;
+	}
+	.hsug_print > .collapse > .card-body > .row > .w-100 > .form-layout> .row > .col-lg-6{
+			 display: inline-block !important;
+		   padding: 10px;
+		   width: 40% !important;
+		}
+	.shpg_dip_print > .col-lg-4{
+		 display: inline-block !important;
+       padding: 10px;
+       width: 30%;
+	}
+	.card_print > .collapse > .card-body > section > .w-100 > .col-md-6,
+	 .card_print > .collapse > .card-body > section > .w-100 > .col-lg-6{
+        display: inline-block !important;
+       padding: 10px;
+       width: 40%;
+      
+    }
+    .card_print > .collapse > .card-body > section > .form-layout > .row >.col-lg-4{
+		display: inline-block !important;
+       padding: 10px;
+       width: 30%;
+	}
+    .card_print > #collapseFour > .card-body > section > .w-100{
+        padding: 10px 0;
+    }
+    .card_print > #collapseFour > .card-body > section > .row{
+        padding: 10px 0;
+    }
+    .footer{
+        display: none;
+    }
+    .right-bar{
+        display: none;
+    }
+    .title_form_header{
+        display: none;
+    }
+	.agrisci_parent > .card-header {
+		margin-bottom:10% !important;
+	}
+   /*  #button_print{
+        display: none;
+    } */
+
+	.print_qualification{
+		display:block !important;
+	}
+	.print_qualification > .col-lg-5{
+		display:inline-block !important;
+		width:30%;
+	}
+
+	.print_qualification{
+		display:block !important;
+	}
+	.print_qualification > .col-lg-5{
+		display:inline-block !important;
+		width:30%!important;
+	}	
+	
+
+	.print_qualification > .col-lg-6{
+		display:inline-block !important;
+		width:40%!important;
+	}		
+	
+	.print_campus_small{
+		display:none;
+	}
+}

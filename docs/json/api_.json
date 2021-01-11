@@ -1,0 +1,88 @@
+{
+  "basePath": "http://172.16.15.103/bmw_japan/api/mastertable/",
+  "swaggerVersion": "1.2",
+  "apiVersion": "0.1",
+  "resourcePath": "/api",
+  "apis": [
+    {
+      "path": "employee",
+      "description": "get",
+      "operations": [
+        {
+          "method": "GET",
+          "summary": "get employee",
+          "nickname": "employee",
+          "parameters": [
+            {
+              "paramType": "query",
+              "name": "slug",
+              "type": "string",
+              "required": true,
+              "description": "slug"
+            }
+          ],
+          "responseMessages": [
+            {
+              "code": 400,
+              "message": "Please pass the employee number to get employee detail."
+            },
+            {
+              "code": 404,
+              "message": "Not found"
+            }
+          ],
+          "notes": "Returns a json"
+        }
+      ]
+    },
+    {
+      "path": "employees",
+      "description": "get",
+      "operations": [
+        {
+          "method": "GET",
+          "summary": "get employees list",
+          "nickname": "employees",
+          "parameters": [
+            {
+              "paramType": "query",
+              "name": "page",
+              "type": "string",
+              "required": false,
+              "description": "page"
+            },
+            {
+              "paramType": "query",
+              "name": "limit",
+              "type": "string",
+              "required": false,
+              "description": "limit"
+            },
+            {
+              "paramType": "query",
+              "name": "slug",
+              "type": "string",
+              "required": false,
+              "description": "slug"
+            }
+          ],
+          "responseMessages": [
+            {
+              "code": 400,
+              "message": "No data was found"
+            },
+            {
+              "code": 404,
+              "message": "Not found"
+            }
+          ],
+          "notes": "Returns a json"
+        }
+      ]
+    }
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "authorizations": {}
+}

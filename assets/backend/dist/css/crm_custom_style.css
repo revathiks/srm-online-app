@@ -1,0 +1,151 @@
+.tabulator-print-header,
+.tabulator-print-footer {
+	text-align: center;
+}
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+ul.multiselect-container.dropdown-menu.show{
+	max-height: 500px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	width:100%!important;
+}
+
+.btn-group,button.multiselect.dropdown-toggle.btn.btn-default{
+	background-color: #fff;
+	border: .5px solid #ced4da;
+	border-radius: 0%;
+	width:100%;
+	outline:none!important;
+}
+
+.select2-container{
+	width:100%!important;
+}
+
+.select2-selection__arrow{
+	display:none;
+}
+
+.ad-filters-multiple{
+	display:flex!important;
+}
+
+.daterangepicker td.active, .daterangepicker td.active:hover{
+	background-color:#626ed4!important;
+}
+
+.tabulator-cell,.tabulator-col-title{
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.inprogress{
+    background: #fbdadf;
+    color: #7b2432;
+    border: 2px solid #7b2432;
+    width: -webkit-fill-available;
+	width: -moz-available;
+    text-align: center;
+	text-transform:uppercase;
+	font-style: italic;
+    font-weight: unset;
+    font-size: smaller;	
+}
+
+.completed{
+	color: #015550;
+	background: #ccedeb;
+	border:  2px solid #015550;
+	width: -webkit-fill-available;
+	width: -moz-available;
+	text-align:center;
+	text-transform:uppercase;
+	font-style: italic;
+    font-weight: unset;
+    font-size: smaller;	
+}
+
+.cheque{
+	height:unset!important;
+	color: #815e13;
+	padding: .5em;
+	background-color: #fef0d3;
+	border-color: #fef0d3;
+	width:inherit;
+	text-align:center;		
+}
+
+.cash{
+	height:unset!important;
+	color: #1d5581;
+	padding: .5em;
+	background-color:#d7edfe;
+	border-color:#d7edfe;
+	width:inherit;
+	text-align:center;			
+}
+
+.online{
+	height:unset!important;
+	color: #33396e;
+	padding: .5em;
+	background-color:#e0e2f6;
+	border-color:#e0e2f6;
+	width:inherit;
+	text-align:center;			
+}	
+
+a.btn.btn-danger.waves-effect.waves-light,a.btn.btn-success.waves-effect.waves-light{
+	width:-webkit-fill-available;
+}
+
+.btn-success{
+	background-color:#fff;
+	color:#02a499;
+	border:  2px solid #02a499;
+	text-transform:uppercase;
+	padding:0;
+}
+.btn-success:hover{
+	color:#fff;
+}
+
+.btn-danger{
+	background-color:#fff;
+	color:#ec4561;
+	border:  2px solid #ec4561;
+	text-transform:uppercase;
+	padding:0;
+}
+.btn-danger:hover{
+	color:#fff;
+}
+
+.progress{
+	height:.5rem;
+	border-radius:10px;
+}
+/* my queries css*/
+.queries .tabulator-cell, .tabulator-col-title{	text-transform:none;}
+.ticketcounts > .col-md-4 > .card{
+	background: #cccccc;
+}

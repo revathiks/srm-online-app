@@ -1,0 +1,1545 @@
+.vertical-collpsed
+{
+	min-height: unset!important;
+}
+.account-page-full .card {
+    margin-bottom: 0;
+}
+.select2-results__options {
+    max-height: 200px;
+    overflow-y: auto;
+}
+#captcha_image img {
+	width: 150px;
+	height: 45px;
+}
+span#custom-phone_no_code-parsley-error {
+    float: left;
+    width: 100%;
+}
+/* Ph.D Application Start */
+#phd_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#phd_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#phd_form-t-2 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#phd_form-t-3 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#phd_form-t-4 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+#phd_form-t-5 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+}
+#phd_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+
+.done > #phd_form-t-0 > .number,
+.done > #phd_form-t-1 > .number,
+.done > #phd_form-t-2 > .number,
+.done > #phd_form-t-3 > .number,
+.done > #phd_form-t-4 > .number,
+.done > #phd_form-t-5 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #phd_form-t-0 > .title-head,
+.done > #phd_form-t-1 > .title-head,
+.done > #phd_form-t-2 > .title-head,
+.done > #phd_form-t-3 > .title-head,
+.done > #phd_form-t-4 > .title-head,
+.done > #phd_form-t-5 > .title-head{
+    color: #626ed4;
+}
+
+/* Ph.D Application End */
+
+
+/*Mtech Research Start*/
+
+#mtechresearch_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#mtechresearch_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#mtechresearch_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#mtechresearch_form-t-3 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#mtechresearch_form-t-4 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+#mtechresearch_form-t-5 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+#mtechresearch_form-t-6 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+}
+
+.done > #mtechresearch_form-t-0 > .number,
+.done > #mtechresearch_form-t-1 > .number,
+.done > #mtechresearch_form-t-2 > .number,
+.done > #mtechresearch_form-t-3 > .number,
+.done > #mtechresearch_form-t-4 > .number,
+.done > #mtechresearch_form-t-5 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #mtechresearch_form-t-0 > .title-head,
+.done > #mtechresearch_form-t-1 > .title-head,
+.done > #mtechresearch_form-t-2 > .title-head,
+.done > #mtechresearch_form-t-3 > .title-head,
+.done > #mtechresearch_form-t-4 > .title-head,
+.done > #mtechresearch_form-t-5 > .title-head{
+    color: #626ed4;
+}
+
+/*Mtech Research End*/
+
+/*BArch Design Start*/
+
+#barchdesign_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#barchdesign_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#barchdesign_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#barchdesign_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;    
+}
+#barchdesign_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;    
+}
+#barchdesign_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+#barchdesign_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+
+.done > #barchdesign_form-t-0 > .number,
+.done > #barchdesign_form-t-1 > .number,
+.done > #barchdesign_form-t-2 > .number,
+.done > #barchdesign_form-t-3 > .number,
+.done > #barchdesign_form-t-4 > .number,
+.done > #barchdesign_form-t-5 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #barchdesign_form-t-0 > .title-head,
+.done > #barchdesign_form-t-1 > .title-head,
+.done > #barchdesign_form-t-2 > .title-head,
+.done > #barchdesign_form-t-3 > .title-head,
+.done > #barchdesign_form-t-4 > .title-head,
+.done > #barchdesign_form-t-5 > .title-head{
+    color: #626ed4;
+}
+/*BArch Design End*/
+
+/* B.Tech Application Start */
+#btech_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#btech_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#btech_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#btech_form-t-3 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#btech_form-t-4 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+#btech_form-t-5 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+}
+#btech_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+
+.done > #btech_form-t-0 > .number,
+.done > #btech_form-t-1 > .number,
+.done > #btech_form-t-2 > .number,
+.done > #btech_form-t-3 > .number,
+.done > #btech_form-t-4 > .number,
+.done > #btech_form-t-5 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #btech_form-t-0 > .title-head,
+.done > #btech_form-t-1 > .title-head,
+.done > #btech_form-t-2 > .title-head,
+.done > #btech_form-t-3 > .title-head,
+.done > #btech_form-t-4 > .title-head,
+.done > #btech_form-t-5 > .title-head{
+    color: #626ed4;
+}
+
+/* B.Tech Application End */
+
+#dist_edu_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#dist_edu_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#dist_edu_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#dist_edu_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#dist_edu_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#dist_edu_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+/* #phd_form-t-5 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+} */
+#dist_edu_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+
+.done > #dist_edu_form-t-0 > .number,
+.done > #dist_edu_form-t-1 > .number,
+.done > #dist_edu_form-t-2 > .number,
+.done > #dist_edu_form-t-3 > .number,
+.done > #dist_edu_form-t-4 > .number,
+.done > #dist_edu_form-t-5 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #dist_edu_form-t-0 > .title-head,
+.done > #dist_edu_form-t-1 > .title-head,
+.done > #dist_edu_form-t-2 > .title-head,
+.done > #dist_edu_form-t-3 > .title-head,
+.done > #dist_edu_form-t-4 > .title-head,
+.done > #dist_edu_form-t-5 > .title-head{
+    color: #626ed4;
+}
+/* HCMA application*/
+
+#hcma_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#hcma_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#hcma_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#hcma_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#hcma_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#hcma_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+/* #phd_form-t-5 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+} */
+#hcma_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+
+.done > #hcma_form-t-0 > .number,
+.done > #hcma_form-t-1 > .number,
+.done > #hcma_form-t-2 > .number,
+.done > #hcma_form-t-3 > .number,
+.done > #hcma_form-t-4 > .number,
+.done > #hcma_form-t-5 > .number,
+.done > #hcma_form-t-6 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #hcma_form-t-0 > .title-head,
+.done > #hcma_form-t-1 > .title-head,
+.done > #hcma_form-t-2 > .title-head,
+.done > #hcma_form-t-3 > .title-head,
+.done > #hcma_form-t-4 > .title-head,
+.done > #hcma_form-t-5 > .title-head,
+.done > #hcma_form-t-6 > .title-head{
+    color: #626ed4;
+}
+
+.wizard>.content>.body {
+    width: 100%;
+    height: auto;
+    padding: 30px 0 0;
+    position: static;
+}
+
+/* BSC Aircraft Maintenance application*/
+
+#bsc_hons_am_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#bsc_hons_am_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#bsc_hons_am_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#bsc_hons_am_form-t-3 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#bsc_hons_am_form-t-4 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+/* #phd_form-t-5 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+} */
+#bsc_hons_am_form-t-5 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+
+.done > #bsc_hons_am_form-t-0 > .number,
+.done > #bsc_hons_am_form-t-1 > .number,
+.done > #bsc_hons_am_form-t-2 > .number,
+.done > #bsc_hons_am_form-t-3 > .number,
+.done > #bsc_hons_am_form-t-4 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #bsc_hons_am_form-t-0 > .title-head,
+.done > #bsc_hons_am_form-t-1 > .title-head,
+.done > #bsc_hons_am_form-t-2 > .title-head,
+.done > #bsc_hons_am_form-t-3 > .title-head,
+.done > #bsc_hons_am_form-t-4 > .title-head,{
+    color: #626ed4;
+}
+
+.wizard>.content>.body {
+    width: 100%;
+    height: auto;
+    padding: 30px 0 0;
+    position: static;
+}
+
+/* B-ed M-ed Mphil application*/
+#bm_ed_mphil_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#bm_ed_mphil_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#bm_ed_mphil_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#bm_ed_mphil_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#bm_ed_mphil_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#bm_ed_mphil_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+/* #phd_form-t-5 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+} */
+#bm_ed_mphil_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+#bm_ed_mphil_form-t-7 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+}
+
+.done > #bm_ed_mphil_form-t-0 > .number,
+.done > #bm_ed_mphil_form-t-1 > .number,
+.done > #bm_ed_mphil_form-t-2 > .number,
+.done > #bm_ed_mphil_form-t-3 > .number,
+.done > #bm_ed_mphil_form-t-4 > .number,
+.done > #bm_ed_mphil_form-t-5 > .number,
+.done > #bm_ed_mphil_form-t-6 > .number,
+.done > #bm_ed_mphil_form-t-7 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #bm_ed_mphil_form-t-0 > .title-head,
+.done > #bm_ed_mphil_form-t-1 > .title-head,
+.done > #bm_ed_mphil_form-t-2 > .title-head,
+.done > #bm_ed_mphil_form-t-3 > .title-head,
+.done > #bm_ed_mphil_form-t-4 > .title-head,
+.done > #bm_ed_mphil_form-t-5 > .title-head,
+.done > #bm_ed_mphil_form-t-6 > .title-head,
+.done > #bm_ed_mphil_form-t-7 > .title-head
+{
+    color: #626ed4;
+}
+/* end B-ed M-ed Mphil application*/
+
+/* M.Tech Application Start */
+#mtech_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#mtech_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#mtech_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#mtech_form-t-3 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#mtech_form-t-4 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+#mtech_form-t-5 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+#mtech_form-t-6 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+}
+
+.done > #mtech_form-t-0 > .number,
+.done > #mtech_form-t-1 > .number,
+.done > #mtech_form-t-2 > .number,
+.done > #mtech_form-t-3 > .number,
+.done > #mtech_form-t-4 > .number,
+.done > #mtech_form-t-5 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #mtech_form-t-0 > .title-head,
+.done > #mtech_form-t-1 > .title-head,
+.done > #mtech_form-t-2 > .title-head,
+.done > #mtech_form-t-3 > .title-head,
+.done > #mtech_form-t-4 > .title-head,
+.done > #mtech_form-t-5 > .title-head{
+    color: #626ed4;
+}
+
+/* M.Tech Application End */
+
+/* S&H UG Application Start */
+
+#shug_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#shug_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#shug_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#shug_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#shug_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#shug_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+
+#shug_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+#shug_form-t-7 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+}
+
+.done > #shug_form-t-0 > .number,
+.done > #shug_form-t-1 > .number,
+.done > #shug_form-t-2 > .number,
+.done > #shug_form-t-3 > .number,
+.done > #shug_form-t-4 > .number,
+.done > #shug_form-t-5 > .number,
+.done > #shug_form-t-6 > .number,
+.done > #shug_form-t-7 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #shug_form-t-0 > .title-head,
+.done > #shug_form-t-1 > .title-head,
+.done > #shug_form-t-2 > .title-head,
+.done > #shug_form-t-3 > .title-head,
+.done > #shug_form-t-4 > .title-head,
+.done > #shug_form-t-5 > .title-head,
+.done > #shug_form-t-6 > .title-head,
+.done > #shug_form-t-7 > .title-head
+{
+    color: #626ed4;
+}
+
+/* S&H UG Application End */
+
+a.download_link {
+    margin-left: 5px;
+    height: 100%;
+    margin-right: 5px;
+}
+
+.table .thead-light th {
+    font-size: 14px;
+}
+
+/* for steps count alignment */
+.wizard>.content>.body{padding: 0;}
+
+
+
+/* B.Tech & M.Tech part time application Start */
+#bmtechparttime_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#bmtechparttime_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#bmtechparttime_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#bmtechparttime_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#bmtechparttime_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#bmtechparttime_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+#bmtechparttime_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+#bmtechparttime_form-t-7 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+}
+
+.done > #bmtechparttime_form-t-0 > .number,
+.done > #bmtechparttime_form-t-1 > .number,
+.done > #bmtechparttime_form-t-2 > .number,
+.done > #bmtechparttime_form-t-3 > .number,
+.done > #bmtechparttime_form-t-4 > .number,
+.done > #bmtechparttime_form-t-5 > .number,
+.done > #bmtechparttime_form-t-6 > .number,
+.done > #bmtechparttime_form-t-7 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #bmtechparttime_form-t-0 > .title-head,
+.done > #bmtechparttime_form-t-1 > .title-head,
+.done > #bmtechparttime_form-t-2 > .title-head,
+.done > #bmtechparttime_form-t-3 > .title-head,
+.done > #bmtechparttime_form-t-4 > .title-head,
+.done > #bmtechparttime_form-t-5 > .title-head,
+.done > #bmtechparttime_form-t-6 > .title-head,
+.done > #bmtechparttime_form-t-7 > .title-head
+{
+    color: #626ed4;
+}
+/* B.Tech & M.Tech part time application End */
+/* BBA Application Start */
+
+#bba_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#bba_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#bba_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#bba_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#bba_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#bba_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+
+#bba_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+#bba_form-t-7 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+}
+
+.done > #bba_form-t-0 > .number,
+.done > #bba_form-t-1 > .number,
+.done > #bba_form-t-2 > .number,
+.done > #bba_form-t-3 > .number,
+.done > #bba_form-t-4 > .number,
+.done > #bba_form-t-5 > .number,
+.done > #bba_form-t-6 > .number,
+.done > #bba_form-t-7 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #bba_form-t-0 > .title-head,
+.done > #bba_form-t-1 > .title-head,
+.done > #bba_form-t-2 > .title-head,
+.done > #bba_form-t-3 > .title-head,
+.done > #bba_form-t-4 > .title-head,
+.done > #bba_form-t-5 > .title-head,
+.done > #bba_form-t-6 > .title-head,
+.done > #bba_form-t-7 > .title-head
+{
+    color: #626ed4;
+}
+
+/* BBA Application End */
+
+/* Advanced PG DP Life Science Start */
+
+#pgdplifescience_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#pgdplifescience_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#pgdplifescience_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#pgdplifescience_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#pgdplifescience_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#pgdplifescience_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+/* #phd_form-t-5 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+} */
+#pgdplifescience_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+
+.done > #pgdplifescience_form-t-0 > .number,
+.done > #pgdplifescience_form-t-1 > .number,
+.done > #pgdplifescience_form-t-2 > .number,
+.done > #pgdplifescience_form-t-3 > .number,
+.done > #pgdplifescience_form-t-4 > .number,
+.done > #pgdplifescience_form-t-5 > .number,
+.done > #pgdplifescience_form-t-6 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #pgdplifescience_form-t-0 > .title-head,
+.done > #pgdplifescience_form-t-1 > .title-head,
+.done > #pgdplifescience_form-t-2 > .title-head,
+.done > #pgdplifescience_form-t-3 > .title-head,
+.done > #pgdplifescience_form-t-4 > .title-head,
+.done > #pgdplifescience_form-t-5 > .title-head,
+.done > #pgdplifescience_form-t-6 > .title-head
+{
+    color: #626ed4;
+}
+
+/* Advanced PG DP Life Science End */
+
+#disableall{
+	pointer-events:none;
+}
+/* MBA Application Start */
+
+#mba_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#mba_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#mba_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#mba_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#mba_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#mba_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+
+#mba_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+#mba_form-t-7 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+}
+
+.done > #mba_form-t-0 > .number,
+.done > #mba_form-t-1 > .number,
+.done > #mba_form-t-2 > .number,
+.done > #mba_form-t-3 > .number,
+.done > #mba_form-t-4 > .number,
+.done > #mba_form-t-5 > .number,
+.done > #mba_form-t-6 > .number,
+.done > #mba_form-t-7 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #mba_form-t-0 > .title-head,
+.done > #mba_form-t-1 > .title-head,
+.done > #mba_form-t-2 > .title-head,
+.done > #mba_form-t-3 > .title-head,
+.done > #mba_form-t-4 > .title-head,
+.done > #mba_form-t-5 > .title-head,
+.done > #mba_form-t-6 > .title-head,
+.done > #mba_form-t-7 > .title-head
+{
+    color: #626ed4;
+}
+
+/* MBA Application End */
+
+#halterror {
+    font-size: 12px;
+    list-style: none;
+    color: #ec4561;
+    margin-top: 5px;
+}
+
+/* S&H PG Application Start */
+
+#shpg_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#shpg_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#shpg_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#shpg_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#shpg_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#shpg_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+
+#shpg_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+#shpg_form-t-7 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+}
+
+.done > #shpg_form-t-0 > .number,
+.done > #shpg_form-t-1 > .number,
+.done > #shpg_form-t-2 > .number,
+.done > #shpg_form-t-3 > .number,
+.done > #shpg_form-t-4 > .number,
+.done > #shpg_form-t-5 > .number,
+.done > #shpg_form-t-6 > .number,
+.done > #shpg_form-t-7 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #shpg_form-t-0 > .title-head,
+.done > #shpg_form-t-1 > .title-head,
+.done > #shpg_form-t-2 > .title-head,
+.done > #shpg_form-t-3 > .title-head,
+.done > #shpg_form-t-4 > .title-head,
+.done > #shpg_form-t-5 > .title-head,
+.done > #shpg_form-t-6 > .title-head,
+.done > #shpg_form-t-7 > .title-head
+{
+    color: #626ed4;
+}
+
+/* S&H PG Application End */
+.select2-container .select2-selection--single .select2-selection__rendered
+{
+	font-size: .875rem;
+}
+
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../../../assets/common/images/loading.gif') 50% 50% no-repeat rgb(255,255,255);
+    opacity: .8;
+}
+
+
+#custom-pd_father_phone-parsley-error,#custom-pd_mother_phone-parsley-error,#custom-pd_father_email-parsley-error,#custom-pd_mother_email-parsley-error,#custom-pd_alt_email-parsley-error{
+	color:#ec4561;
+}
+#custom-field-error,.custom-field-error{
+	color:#ec4561;
+}
+/*hide delete option in mobile code*/
+#mother_mbleno_div .select2-selection__clear,
+#mother_alt_mbleno_div .select2-selection__clear,
+#father_mbleno_div .select2-selection__clear,
+#father_alt_mbleno_div .select2-selection__clear,
+#select2-phone_no_code-container .select2-selection__clear,
+#select2-pd_father_alt_phone_no_code-container .select2-selection__clear,
+#select2-pd_mother_alt_phone_no_code-container .select2-selection__clear,
+#select2-pd_guardian_phone_no_code-container .select2-selection__clear,
+#select2-pd_guardian_phone_no_code2-container .select2-selection__clear
+{
+display:none;
+}
+
+/*For registration Width Issue */
+
+.reg_width{
+    width:140px; 
+}
+/* MBA part time Application Start */
+
+#mba_parttime_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#mba_parttime_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#mba_parttime_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#mba_parttime_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#mba_parttime_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#mba_parttime_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+
+#mba_parttime_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+.done > #mba_parttime_form-t-0 > .number,
+.done > #mba_parttime_form-t-1 > .number,
+.done > #mba_parttime_form-t-2 > .number,
+.done > #mba_parttime_form-t-3 > .number,
+.done > #mba_parttime_form-t-4 > .number,
+.done > #mba_parttime_form-t-5 > .number,
+.done > #mba_parttime_form-t-6 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+
+.done > #mba_parttime_form-t-0 > .title-head,
+.done > #mba_parttime_form-t-1 > .title-head,
+.done > #mba_parttime_form-t-2 > .title-head,
+.done > #mba_parttime_form-t-3 > .title-head,
+.done > #mba_parttime_form-t-4 > .title-head,
+.done > #mba_parttime_form-t-5 > .title-head,
+.done > #mba_parttime_form-t-6 > .number
+{
+    color: #626ed4;
+}
+
+/*March Start*/
+
+#marchdesign_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#marchdesign_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#marchdesign_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#marchdesign_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#marchdesign_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#marchdesign_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+#marchdesign_form-t-7 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+#marchdesign_form-t-6 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+}
+
+.done > #marchdesign_form-t-0 > .number,
+.done > #marchdesign_form-t-1 > .number,
+.done > #marchdesign_form-t-2 > .number,
+.done > #marchdesign_form-t-3 > .number,
+.done > #marchdesign_form-t-4 > .number,
+.done > #marchdesign_form-t-5 > .number,
+.done > #marchdesign_form-t-6 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #marchdesign_form-t-0 > .title-head,
+.done > #marchdesign_form-t-1 > .title-head,
+.done > #marchdesign_form-t-2 > .title-head,
+.done > #marchdesign_form-t-3 > .title-head,
+.done > #marchdesign_form-t-4 > .title-head,
+.done > #marchdesign_form-t-5 > .title-head,
+.done > #marchdesign_form-t-6 > .number
+{
+    color: #626ed4;
+}
+
+/*March End*/
+
+/* HSPG diploma non entrance Application Start */
+
+#hspg_diploma_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#hspg_diploma_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#hspg_diploma_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#hspg_diploma_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#hspg_diploma_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#hspg_diploma_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+#hspg_diploma_form-t-6 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+}
+#hspg_diploma_form-t-7 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+.done > #hspg_diploma_form-t-0 > .number,
+.done > #hspg_diploma_form-t-1 > .number,
+.done > #hspg_diploma_form-t-2 > .number,
+.done > #hspg_diploma_form-t-3 > .number,
+.done > #hspg_diploma_form-t-4 > .number,
+.done > #hspg_diploma_form-t-5 > .number,
+.done > #hspg_diploma_form-t-6 > .number,
+.done > #hspg_diploma_form-t-7 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+
+.done > #hspg_diploma_form-t-0 > .title-head,
+.done > #hspg_diploma_form-t-1 > .title-head,
+.done > #hspg_diploma_form-t-2 > .title-head,
+.done > #hspg_diploma_form-t-3 > .title-head,
+.done > #hspg_diploma_form-t-4 > .title-head,
+.done > #hspg_diploma_form-t-5 > .title-head,
+.done > #hspg_diploma_form-t-6 > .title-head,
+.done > #hspg_diploma_form-t-7 > .title-head,
+{
+    color: #626ed4;
+}
+
+/* Agricultural Sciences Form Start */
+
+#agrisci_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#agrisci_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#agrisci_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#agrisci_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#agrisci_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#agrisci_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+/* #phd_form-t-5 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+} */
+#agrisci_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+
+.done > #agrisci_form-t-0 > .number,
+.done > #agrisci_form-t-1 > .number,
+.done > #agrisci_form-t-2 > .number,
+.done > #agrisci_form-t-3 > .number,
+.done > #agrisci_form-t-4 > .number,
+.done > #agrisci_form-t-5 > .number,
+.done > #agrisci_form-t-6 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #agrisci_form-t-0 > .title-head,
+.done > #agrisci_form-t-1 > .title-head,
+.done > #agrisci_form-t-2 > .title-head,
+.done > #agrisci_form-t-3 > .title-head,
+.done > #agrisci_form-t-4 > .title-head,
+.done > #agrisci_form-t-5 > .title-head,
+.done > #agrisci_form-t-6 > .title-head
+{
+    color: #626ed4;
+}
+
+/* Agricultural Sciences Form End */
+
+
+/* HS UG Application Start */
+
+#hsug_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#hsug_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#hsug_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#hsug_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#hsug_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#hsug_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+
+#hsug_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+#hsug_form-t-7 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+}
+
+.done > #hsug_form-t-0 > .number,
+.done > #hsug_form-t-1 > .number,
+.done > #hsug_form-t-2 > .number,
+.done > #hsug_form-t-3 > .number,
+.done > #hsug_form-t-4 > .number,
+.done > #hsug_form-t-5 > .number,
+.done > #hsug_form-t-6 > .number,
+.done > #hsug_form-t-7 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #hsug_form-t-0 > .title-head,
+.done > #hsug_form-t-1 > .title-head,
+.done > #hsug_form-t-2 > .title-head,
+.done > #hsug_form-t-3 > .title-head,
+.done > #hsug_form-t-4 > .title-head,
+.done > #hsug_form-t-5 > .title-head,
+.done > #hsug_form-t-6 > .title-head,
+.done > #hsug_form-t-7 > .title-head
+{
+    color: #626ed4;
+}
+
+/* HS UG Application End */
+
+
+/*Law Design Start*/
+
+#law_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#law_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#law_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#law_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;    
+}
+#law_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;    
+}
+#law_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+#law_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+
+.done > #law_form-t-0 > .number,
+.done > #law_form-t-1 > .number,
+.done > #law_form-t-2 > .number,
+.done > #law_form-t-3 > .number,
+.done > #law_form-t-4 > .number,
+.done > #law_form-t-5 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #law_form-t-0 > .title-head,
+.done > #law_form-t-1 > .title-head,
+.done > #law_form-t-2 > .title-head,
+.done > #law_form-t-3 > .title-head,
+.done > #law_form-t-4 > .title-head,
+.done > #law_form-t-5 > .title-head{
+    color: #626ed4;
+}
+/*Law Design End*/
+.help_text{
+	font-size: 11px;
+}
+
+/*overwrite bootstrap mark class*/
+.mark{
+	background-color: #ffffff  !important;
+}
+
+/* HSPG PG EE  start */
+
+#hspg_ee_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#hspg_ee_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#hspg_ee_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#hspg_ee_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#hspg_ee_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#hspg_ee_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+#hspg_ee_form-t-7 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+}
+#hspg_ee_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+.done > #hspg_ee_form-t-0 > .number,
+.done > #hspg_ee_form-t-1 > .number,
+.done > #hspg_ee_form-t-2 > .number,
+.done > #hspg_ee_form-t-3 > .number,
+.done > #hspg_ee_form-t-4 > .number,
+.done > #hspg_ee_form-t-5 > .number,
+.done > #hspg_ee_form-t-6 > .number,
+.done > #hspg_ee_form-t-7 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+
+.done > #hspg_ee_form-t-0 > .title-head,
+.done > #hspg_ee_form-t-1 > .title-head,
+.done > #hspg_ee_form-t-2 > .title-head,
+.done > #hspg_ee_form-t-3 > .title-head,
+.done > #hspg_ee_form-t-4 > .title-head,
+.done > #hspg_ee_form-t-5 > .title-head,
+.done > #hspg_ee_form-t-6 > .title-head,
+.done > #hspg_ee_form-t-7 > .title-head,
+{
+    color: #626ed4;
+}
+/* PG EE end */
+
+/*International Form Start*/
+
+#international_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#international_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#international_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#international_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#international_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#international_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+#international_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+
+
+.done > #international_form-t-0 > .number,
+.done > #international_form-t-1 > .number,
+.done > #international_form-t-2 > .number,
+.done > #international_form-t-3 > .number,
+.done > #international_form-t-4 > .number,
+.done > #international_form-t-5 > .number,
+.done > #international_form-t-6 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #international_form-t-0 > .title-head,
+.done > #international_form-t-1 > .title-head,
+.done > #international_form-t-2 > .title-head,
+.done > #international_form-t-3 > .title-head,
+.done > #international_form-t-4 > .title-head,
+.done > #international_form-t-5 > .title-head,
+.done > #international_form-t-6 > .title-head{
+    color: #626ed4;
+}
+
+/*International Form End*/
+
+/* Fellowship Start */
+
+#fellowship_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#fellowship_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#fellowship_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#fellowship_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#fellowship_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#fellowship_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+/* #phd_form-t-5 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+} */
+#fellowship_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+
+.done > #fellowship_form-t-0 > .number,
+.done > #fellowship_form-t-1 > .number,
+.done > #fellowship_form-t-2 > .number,
+.done > #fellowship_form-t-3 > .number,
+.done > #fellowship_form-t-4 > .number,
+.done > #fellowship_form-t-5 > .number,
+.done > #fellowship_form-t-6 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #fellowship_form-t-0 > .title-head,
+.done > #fellowship_form-t-1 > .title-head,
+.done > #fellowship_form-t-2 > .title-head,
+.done > #fellowship_form-t-3 > .title-head,
+.done > #fellowship_form-t-4 > .title-head,
+.done > #fellowship_form-t-5 > .title-head,
+.done > #fellowship_form-t-6 > .title-head
+{
+    color: #626ed4;
+}
+
+/* Fellowship Start */
+
+/* AFIH start */
+#afih_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#afih_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#afih_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#afih_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#afih_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#afih_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+#afih_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+.done > #afih_form-t-0 > .number,
+.done > #afih_form-t-1 > .number,
+.done > #afih_form-t-2 > .number,
+.done > #afih_form-t-3 > .number,
+.done > #afih_form-t-4 > .number,
+.done > #afih_form-t-5 > .number,
+.done > #afih_form-t-6 > .number,
+.done > #afih_form-t-7 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+
+.done > #afih_form-t-0 > .title-head,
+.done > #afih_form-t-1 > .title-head,
+.done > #afih_form-t-2 > .title-head,
+.done > #afih_form-t-3 > .title-head,
+.done > #afih_form-t-4 > .title-head,
+.done > #afih_form-t-5 > .title-head,
+.done > #afih_form-t-6 > .title-head,
+.done > #afih_form-t-7 > .title-head,
+{
+    color: #626ed4;
+}
+/* AFIH end */
+
+/* Tamil Perayam Start */
+
+#tamil_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#tamil_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#tamil_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#tamil_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#tamil_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#tamil_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+/* #phd_form-t-5 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+} */
+#tamil_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+
+.done > #tamil_form-t-0 > .number,
+.done > #tamil_form-t-1 > .number,
+.done > #tamil_form-t-2 > .number,
+.done > #tamil_form-t-3 > .number,
+.done > #tamil_form-t-4 > .number,
+.done > #tamil_form-t-5 > .number,
+.done > #tamil_form-t-6 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #tamil_form-t-0 > .title-head,
+.done > #tamil_form-t-1 > .title-head,
+.done > #tamil_form-t-2 > .title-head,
+.done > #tamil_form-t-3 > .title-head,
+.done > #tamil_form-t-4 > .title-head,
+.done > #tamil_form-t-5 > .title-head,
+.done > #tamil_form-t-6 > .title-head
+{
+    color: #626ed4;
+}
+
+/* Tamil Perayam End */
+
+/* Ph.D JAN Application Start */
+#phd_jan_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#phd_jan_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#phd_jan_form-t-2 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#phd_jan_form-t-3 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#phd_jan_form-t-4 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+#phd_jan_form-t-5 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+}
+#phd_jan_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+
+.done > #phd_jan_form-t-0 > .number,
+.done > #phd_jan_form-t-1 > .number,
+.done > #phd_jan_form-t-2 > .number,
+.done > #phd_jan_form-t-3 > .number,
+.done > #phd_jan_form-t-4 > .number,
+.done > #phd_jan_form-t-5 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #phd_jan_form-t-0 > .title-head,
+.done > #phd_jan_form-t-1 > .title-head,
+.done > #phd_jan_form-t-2 > .title-head,
+.done > #phd_jan_form-t-3 > .title-head,
+.done > #phd_jan_form-t-4 > .title-head,
+.done > #phd_jan_form-t-5 > .title-head{
+    color: #626ed4;
+}
+
+/* Ph.D JAN Application End */
+/* distance jan start*/
+#dist_edu_jan_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#dist_edu_jan_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#dist_edu_jan_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#dist_edu_jan_form-t-3 > .number{
+    background: url("../images/address.png") no-repeat center;
+}
+#dist_edu_jan_form-t-4 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#dist_edu_jan_form-t-5 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+/* #phd_form-t-5 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+} */
+#dist_edu_jan_form-t-6 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+
+.done > #dist_edu_jan_form-t-0 > .number,
+.done > #dist_edu_jan_form-t-1 > .number,
+.done > #dist_edu_jan_form-t-2 > .number,
+.done > #dist_edu_jan_form-t-3 > .number,
+.done > #dist_edu_jan_form-t-4 > .number,
+.done > #dist_edu_jan_form-t-5 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #dist_edu_jan_form-t-0 > .title-head,
+.done > #dist_edu_jan_form-t-1 > .title-head,
+.done > #dist_edu_jan_form-t-2 > .title-head,
+.done > #dist_edu_jan_form-t-3 > .title-head,
+.done > #dist_edu_jan_form-t-4 > .title-head,
+.done > #dist_edu_jan_form-t-5 > .title-head{
+    color: #626ed4;
+}
+/* distance jan end */
+
+/*Mtech Research  janStart*/
+
+#mtechresearch_jan_form-t-0 > .number{
+    background: url("../images/basic-details.png") no-repeat center;
+}
+#mtechresearch_jan_form-t-1 > .number{
+    background: url("../images/personal-details.png") no-repeat center;
+}
+#mtechresearch_jan_form-t-2 > .number{
+    background: url("../images/parent-details.png") no-repeat center;
+}
+#mtechresearch_jan_form-t-3 > .number{
+    background: url("../images/academic-details.png") no-repeat center;
+}
+#mtechresearch_jan_form-t-4 > .number{
+    background: url("../images/payment-details.png") no-repeat center;
+}
+#mtechresearch_jan_form-t-5 > .number{
+    background: url("../images/upload-declaration.png") no-repeat center;
+}
+#mtechresearch_jan_form-t-6 > .number{
+    background: url("../images/declaration.png") no-repeat center;
+}
+
+.done > #mtechresearch_jan_form-t-0 > .number,
+.done > #mtechresearch_jan_form-t-1 > .number,
+.done > #mtechresearch_jan_form-t-2 > .number,
+.done > #mtechresearch_jan_form-t-3 > .number,
+.done > #mtechresearch_jan_form-t-4 > .number,
+.done > #mtechresearch_jan_form-t-5 > .number
+{
+    background: url("../images/check.png") no-repeat center;
+    border-color: #626ed4;
+    color: #626ed4;
+}
+.done > #mtechresearch_jan_form-t-0 > .title-head,
+.done > #mtechresearch_jan_form-t-1 > .title-head,
+.done > #mtechresearch_jan_form-t-2 > .title-head,
+.done > #mtechresearch_jan_form-t-3 > .title-head,
+.done > #mtechresearch_jan_form-t-4 > .title-head,
+.done > #mtechresearch_jan_form-t-5 > .title-head{
+    color: #626ed4;
+}
+
+/*Mtech Research jan End*/

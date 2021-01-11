@@ -1,0 +1,601 @@
+{
+    "swaggerVersion": "1.2",
+    "apiVersion": "0.1",
+    "resourcePath": "/api",
+    "apis": [
+        {
+            "path": "application_form",
+            "description": "get",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "get application form",
+                    "nickname": "application form",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "id",
+                            "type": "string",
+                            "required": false,
+                            "description": "id"
+                        }
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 400,
+                            "message": "Please pass the application form id to get application form detail."
+                        },
+                        {
+                            "code": 404,
+                            "message": "Not found"
+                        }
+                    ],
+                    "notes": "Returns a json"
+                }
+            ]
+        },
+        {
+            "path": "application_forms/{page}/{limit}",
+            "description": "get",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "get application forms list",
+                    "nickname": "application forms",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "page",
+                            "type": "string",
+                            "required": false,
+                            "description": "page"
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "limit",
+                            "type": "string",
+                            "required": false,
+                            "description": "limit"
+                        }
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 400,
+                            "message": "No data was found"
+                        },
+                        {
+                            "code": 404,
+                            "message": "Not found"
+                        }
+                    ],
+                    "notes": "Returns a json"
+                }
+            ]
+        },
+        {
+            "path": "edit_user",
+            "description": "update brand",
+            "operations": [
+                {
+                    "method": "PUT",
+                    "summary": "Update User detail",
+                    "nickname": "Update User detail",
+                    "parameters": [
+                        {
+                            "paramType": "form",
+                            "name": "display_name",
+                            "type": "string",
+                            "required": true,
+                            "description": "display_name"
+                        },
+                        {
+                            "paramType": "form",
+                            "name": "user_id",
+                            "type": "string",
+                            "required": true,
+                            "description": "user_id"
+                        },
+                        {
+                            "paramType": "form",
+                            "name": "phone_no",
+                            "type": "string",
+                            "required": true,
+                            "description": "phone_no"
+                        }
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 400,
+                            "message": "No data was found"
+                        },
+                        {
+                            "code": 404,
+                            "message": "Not found"
+                        }
+                    ],
+                    "notes": "Returns a json"
+                }
+            ]
+        },
+        {
+            "path": "forgotpwd",
+            "description": "post",
+            "operations": [
+                {
+                    "method": "POST",
+                    "summary": "forgot password",
+                    "nickname": "forgot password",
+                    "parameters": [
+                        {
+                            "paramType": "form",
+                            "name": "email",
+                            "type": "string",
+                            "required": true,
+                            "description": "email"
+                        }
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 400,
+                            "message": "No data was found"
+                        },
+                        {
+                            "code": 404,
+                            "message": "Not found"
+                        }
+                    ],
+                    "notes": "Returns a json"
+                }
+            ]
+        },
+        {
+            "path": "insert_mailbox",
+            "description": "post",
+            "operations": [
+                {
+                    "method": "POST",
+                    "summary": "insert_mailbox",
+                    "nickname": "insert_mailbox",
+                    "parameters": [
+                        {
+                            "paramType": "form",
+                            "name": "subject",
+                            "type": "string",
+                            "required": true,
+                            "description": "subject"
+                        },
+                        {
+                            "paramType": "form",
+                            "name": "message",
+                            "type": "string",
+                            "required": true,
+                            "description": "message"
+                        },
+                        {
+                            "paramType": "form",
+                            "name": "from_id",
+                            "type": "string",
+                            "required": true,
+                            "description": "from_id"
+                        },
+                        {
+                            "paramType": "form",
+                            "name": "to_id",
+                            "type": "string",
+                            "required": true,
+                            "description": "to_id"
+                        },
+                        {
+                            "paramType": "form",
+                            "name": "active",
+                            "type": "string",
+                            "required": true,
+                            "description": "active"
+                        }
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 400,
+                            "message": "No data was found"
+                        },
+                        {
+                            "code": 404,
+                            "message": "Not found"
+                        }
+                    ],
+                    "notes": "Returns a json"
+                }
+            ]
+        },
+        {
+            "path": "login",
+            "description": "post",
+            "operations": [
+                {
+                    "method": "POST",
+                    "summary": "login",
+                    "nickname": "login",
+                    "parameters": [
+                        {
+                            "paramType": "form",
+                            "name": "username",
+                            "type": "string",
+                            "required": true,
+                            "description": "username"
+                        },
+                        {
+                            "paramType": "form",
+                            "name": "password",
+                            "type": "password",
+                            "required": true,
+                            "description": "password"
+                        },
+                        {
+                            "paramType": "form",
+                            "name": "role_id",
+                            "type": "string",
+                            "required": true,
+                            "description": "role_id"
+                        }
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 400,
+                            "message": "No data was found"
+                        },
+                        {
+                            "code": 404,
+                            "message": "Not found"
+                        }
+                    ],
+                    "notes": "Returns a json"
+                }
+            ]
+        },
+        {
+            "path": "mailbox",
+            "description": "get",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "get mailbox",
+                    "nickname": "mailbox",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "id",
+                            "type": "string",
+                            "required": false,
+                            "description": "id"
+                        }
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 400,
+                            "message": "Please pass the mailbox id to get mailbox detail."
+                        },
+                        {
+                            "code": 404,
+                            "message": "Not found"
+                        }
+                    ],
+                    "notes": "Returns a json"
+                }
+            ]
+        },
+        {
+            "path": "mailboxes/{page}/{limit}",
+            "description": "get",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "get mailboxes list",
+                    "nickname": "mailboxes list",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "page",
+                            "type": "string",
+                            "required": false,
+                            "description": "page"
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "limit",
+                            "type": "string",
+                            "required": false,
+                            "description": "limit"
+                        }
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 400,
+                            "message": "No data was found"
+                        },
+                        {
+                            "code": 404,
+                            "message": "Not found"
+                        }
+                    ],
+                    "notes": "Returns a json"
+                }
+            ]
+        },
+        {
+            "path": "register",
+            "description": "post",
+            "operations": [
+                {
+                    "method": "POST",
+                    "summary": "register",
+                    "nickname": "register",
+                    "parameters": [
+                        {
+                            "paramType": "form",
+                            "name": "user_name",
+                            "type": "string",
+                            "required": true,
+                            "description": "user_name"
+                        },
+                        {
+                            "paramType": "form",
+                            "name": "display_name",
+                            "type": "string",
+                            "required": true,
+                            "description": "display_name"
+                        },
+                        {
+                            "paramType": "form",
+                            "name": "role_id",
+                            "type": "string",
+                            "required": true,
+                            "description": "role_id"
+                        },
+                        {
+                            "paramType": "form",
+                            "name": "email",
+                            "type": "string",
+                            "required": true,
+                            "description": "email"
+                        },
+                        {
+                            "paramType": "form",
+                            "name": "phone_no",
+                            "type": "string",
+                            "required": true,
+                            "description": "phone_no"
+                        }
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 400,
+                            "message": "No data was found"
+                        },
+                        {
+                            "code": 404,
+                            "message": "Not found"
+                        }
+                    ],
+                    "notes": "Returns a json"
+                }
+            ]
+        },
+        {
+            "path": "stream",
+            "description": "get",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "get stream",
+                    "nickname": "stream",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "id",
+                            "type": "string",
+                            "required": false,
+                            "description": "id"
+                        }
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 400,
+                            "message": "Please pass the stream id to get stream detail."
+                        },
+                        {
+                            "code": 404,
+                            "message": "Not found"
+                        }
+                    ],
+                    "notes": "Returns a json"
+                }
+            ]
+        },
+        {
+            "path": "streams/{page}/{limit}",
+            "description": "get",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "get streams list",
+                    "nickname": "streams",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "page",
+                            "type": "string",
+                            "required": false,
+                            "description": "page"
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "limit",
+                            "type": "string",
+                            "required": false,
+                            "description": "limit"
+                        }
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 400,
+                            "message": "No data was found"
+                        },
+                        {
+                            "code": 404,
+                            "message": "Not found"
+                        }
+                    ],
+                    "notes": "Returns a json"
+                }
+            ]
+        },
+        {
+            "path": "upload",
+            "description": "post",
+            "operations": [
+                {
+                    "method": "POST",
+                    "summary": "upload user files",
+                    "nickname": "upload user files",
+                    "parameters": [
+                        {
+                            "paramType": "form",
+                            "name": "fileName",
+                            "type": "string",
+                            "required": true,
+                            "description": "fileName"
+                        },
+                        {
+                            "paramType": "form",
+                            "name": "fileData",
+                            "type": "string",
+                            "required": true,
+                            "description": "fileData"
+                        }
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 400,
+                            "message": "No data was found"
+                        },
+                        {
+                            "code": 404,
+                            "message": "Not found"
+                        }
+                    ],
+                    "notes": "Returns a json"
+                }
+            ]
+        },
+        {
+            "path": "user/{id}",
+            "description": "get",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "get user",
+                    "nickname": "user",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "id",
+                            "type": "string",
+                            "required": false,
+                            "description": "id"
+                        }
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 400,
+                            "message": "Please pass the user id to get user detail."
+                        },
+                        {
+                            "code": 404,
+                            "message": "Not found"
+                        }
+                    ],
+                    "notes": "Returns a json"
+                }
+            ]
+        },
+        {
+            "path": "user/{page}/{limit}",
+            "description": "get",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "get users list",
+                    "nickname": "users list",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "page",
+                            "type": "string",
+                            "required": false,
+                            "description": "page"
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "limit",
+                            "type": "string",
+                            "required": false,
+                            "description": "limit"
+                        }
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 400,
+                            "message": "No data was found"
+                        },
+                        {
+                            "code": 404,
+                            "message": "Not found"
+                        }
+                    ],
+                    "notes": "Returns a json"
+                }
+            ]
+        },
+        {
+            "path": "user_list/{page}/{limit}",
+            "description": "get",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "get users list",
+                    "nickname": "users list",
+                    "parameters": [
+                        {
+                            "paramType": "path",
+                            "name": "page",
+                            "type": "string",
+                            "required": false,
+                            "description": "page"
+                        },
+                        {
+                            "paramType": "path",
+                            "name": "limit",
+                            "type": "string",
+                            "required": false,
+                            "description": "limit"
+                        }
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 400,
+                            "message": "No data was found"
+                        },
+                        {
+                            "code": 404,
+                            "message": "Not found"
+                        }
+                    ],
+                    "notes": "Returns a json"
+                }
+            ]
+        }
+    ],
+    "produces": [
+        "application/json"
+    ]
+}
